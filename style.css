@@ -4,22 +4,8 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-
-    /*margin: 8px;
-    border: red solid 1px;
-    background-color: rgba(0, 0, 0, 0.15);*/
 }
-/*
-p {
-	font-family: cursive; 
-	font-size: 2em;
-}*/
 
-/*.grid {
-	margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-}*/
 body {
 	font-family: fantasy;
 	padding: 40px;
@@ -29,20 +15,11 @@ body {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    /*height: 300px;
-    width: auto;*/
-
-    
 }
 
 .image {
-	/*flex-basis: 80px;*/
     max-width: 10%;
     max-height: 10%
-    /*width:  auto; 
-    height: auto;
-    max-width:MaxSize;
-    max-height:MaxSize;*/
 }
 
 
@@ -79,22 +56,25 @@ body {
 	border-radius: 10px;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
     text-align: center;
+}
+
+h1 {
     font-size: 200%;
 }
 
 h2 {
-    text-align: center;
     font-size: 175%;
 }
 
 h3 {
-    text-align: center;
     font-size: 150%;
 }
 
 h4 {
-    text-align: center;
     font-size: 125%;
 }
